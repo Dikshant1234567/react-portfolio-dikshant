@@ -1,0 +1,60 @@
+footer{
+    background-color: black;
+    color: white;
+    height: 30vh;
+    display: flex;
+    flex-basis: 20%;
+}
+.empty, .socialMedia{
+    width: 20%;
+}
+.dev{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    flex-direction: column;
+}
+.dev img{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   border: 2px solid white;
+
+}
+.dev h3{
+    font-size: 25px;
+    margin: .5rem;
+    letter-spacing: 1px;
+}
+.dev p{
+    font-size: 18px;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.socialMedia h3{
+    font-size: 21px;  
+}
+.socialMedia span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.socialMedia span a i{
+    color: white;
+   font-size: 25px;
+   margin: .5rem;
+   cursor: pointer;
+
+}
+.socialMedia span a i:nth-child(1):hover{
+  color: gray ;
+
+}

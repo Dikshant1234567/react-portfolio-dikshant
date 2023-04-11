@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Rubik+Vinyl&display=swap");
+
+#work {
+  width: 100vw;
+  height: 100vh;
+  background-color: #faecd6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#work h1 {
+  width: 100vw;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-top: 1.5rem;
+  text-decoration: underline;
+}
+.carsouel {
+  height: 85%;
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  background-color: rgb(4, 4, 39);
+  /* overflow: hidden; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slide {
+  box-shadow: 0px 0px 5px white;
+  /* margin: 13% 10%; */
+  text-align: center;
+  width: 40%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.slide img {
+  width: 50%;
+  height: 100%;
+}
+
+.slide div {
+  background-color: beige;
+  width: 50%;
+  height: 100%;
+
+  padding: 0 5%;
+}
+.slide div button {
+  margin: 1rem;
+  background-color: rgb(4, 4, 39);
+  color: white;
+  font-weight: 600;
+  animation: vibration 0.5s ease-in 2s infinite alternate both;
+}
+@keyframes vibration {
+  0% {
+    opacity: 1;
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+.slide div button:hover {
+  background-color: rgba(4, 4, 39, 0.83);
+}
+.slide div h2 {
+  color: darkslategrey;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Josefin Sans";
+  margin-top: 1rem;
+}
+.slide div p {
+  margin-top: 8px;
+  font: icon;
+  font-size: 14px;
+  letter-spacing: 1px;
+  word-spacing: 0.3px;
+}
+.app-type{
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: 600;
+  color: red;
+}

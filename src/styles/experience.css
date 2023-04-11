@@ -1,0 +1,135 @@
+#experience {
+  background-color: rgb(12, 12, 52);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkred;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+.experience-container {
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+.main-experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  animation: motion 0.5s 0s alternate ease-out forwards;
+}
+.experience-container h1 {
+  font-size: 35px;
+  color: white;
+  text-decoration: underline 1.5px dashed white;
+}
+.time {
+  width: 20%;
+  height: 61vh;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  box-shadow: 1px 1px 7px whitesmoke;
+}
+.time div h3 {
+  font-size: 22px;
+  color: red;
+  margin-bottom: 1rem;
+}
+.time div ul {
+  list-style: disc;
+}
+.time div ul li {
+  font-size: 14px;
+  color: rgb(12, 12, 52);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 10px blue;
+}
+
+@keyframes motion {
+  0% {
+    opacity: 1;
+    transform: translateX(-82%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+.development {
+  display: block;
+}
+.webapp {
+  display: flex;
+  height: 31vh;
+  width: 45vw;
+  margin: 1rem;
+  align-items: center;
+  overflow: hidden;
+}
+.web {
+  background-color: white;
+  box-shadow: 1px 1px 7px whitesmoke;
+  height: 28vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: red;
+}
+.tools {
+  background-color: white;
+  box-shadow: 1px 1px 7px whitesmoke;
+  height: 28vh;
+  margin-left: 1rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.tools h3 {
+  font-size: 22px;
+  color: red;
+  margin-bottom: 0.5rem;
+}
+.tools ul li {
+  font-size: 14px;
+  margin-bottom: 0.2rem;
+  color: rgb(12, 12, 52);
+  font-weight: 600;
+  text-shadow: 1px 1px 10px blue;
+}
+.desktop {
+  width: 45vw;
+  background-color: white;
+  box-shadow: 1px 1px 7px whitesmoke;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.desktop h3{
+  font-size: 22px;
+  color: red;
+  margin-bottom: 0.5rem;
+  margin-right: 2rem;
+}
+.desktop ul li{
+  font-size: 14px;
+  color: rgb(12, 12, 52);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 10px blue;
+}
+

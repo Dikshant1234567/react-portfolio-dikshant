@@ -1,0 +1,72 @@
+#testimonials {
+  width: 100vw;
+  height: 100vh;
+  background-color: beige;
+  overflow: hidden;
+}
+#testimonials h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5rem;
+}
+.testimonials {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials-container {
+  margin-top: -5rem;
+  background-color: #fff;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.person {
+    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  height: 70%;
+  margin: 0 3%;
+  border: 1px solid b;
+  box-shadow: 5px 8px 10px blanchedalmond;
+  /* position: relative; */
+}
+.person img {
+  margin-bottom: 22rem;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+}
+.person div {
+  background-color: blanchedalmond;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+}
+.person div h3 {
+  font-size: 30px;
+  margin-top: 4rem;
+}
+.person div p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  margin-top: 2rem;
+}
+.person div p span {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  color: red;
+  font-weight: bold;
+  padding-top: 10px;
+}

@@ -1,0 +1,64 @@
+#contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(189, 183, 107, 0.799);
+    display: flex;
+}
+.form{
+    background-color: #FAECD6;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form h1{
+    font-size: 35px;
+    color: brown;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+.helloimg{
+    width: 50%;
+    overflow: hidden;
+    background-color: white;
+}
+.helloimg img{
+    width: 80%;
+    height: 80%;
+    margin-top: 20%;
+    margin-left: 18%;
+    animation: bouncing 2s alternate infinite ease-in-out  ;
+}
+@keyframes bouncing {
+    0%{
+        opacity: 1;
+        transform: translateY(-15%);
+    }
+    
+}
+.form button{
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    margin-top: .7rem;
+}
+.form button:hover{
+   color: brown;
+   background-color: beige;
+   
+}
+#name , #email ,#message{
+width: 50%;
+margin: .5rem 0;
+padding: 1rem;
+outline: none;
+border: transparent;
+}
+.formResponse{
+    background-color: darkred;
+    color: white;
+    width: 50%;
+    text-align: center;
+    line-height: 25px;
+}

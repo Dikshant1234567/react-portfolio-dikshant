@@ -1,0 +1,86 @@
+#home {
+  width: 100vw;
+  height: 90vh;
+  background-color: beige;
+  display: flex;
+}
+.dev_description {
+  width: 40%;
+  padding-top: 10rem;
+  padding-left: 8rem;
+}
+.dev_description h1 {
+  font-size: 55px;
+  margin-bottom: 1rem;
+  color: #1c82ad;
+}
+
+.dev_description h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #03001c;
+  white-space: nowrap;
+}
+.dev_description p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #03001c;
+  animation: typing 3.5s infinite steps(30, end),
+    blink-caret 0.5s step-end infinite;
+  white-space: nowrap;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.dev_description button {
+  margin-top: 2rem;
+  background-color: #03001c;
+  color: white;
+  border: 1px solid #1c82ad;
+  box-shadow: -1px -1px 4px #1c82ad;
+  margin-left: 1rem;
+}
+
+.dev_description button:hover {
+  color: #03001c;
+  background-color: white;
+}
+
+.img div {
+  width: 30rem;
+  height: 70%;
+  margin: 6rem;
+  margin-left: 11rem;
+  border-radius: 50%;
+  background-color: white;
+  overflow: hidden;
+  animation: bounce 1.5s alternate infinite ease;
+}
+.img div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+@keyframes bounce {
+  0% {
+    opacity: 1;
+    transform: translateY(-2.5rem);
+  }
+}

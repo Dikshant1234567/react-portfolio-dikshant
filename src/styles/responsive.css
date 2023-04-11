@@ -1,0 +1,355 @@
+@media (max-width: 1000px) {
+  .cross,
+  .ham {
+    opacity: 1;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  .menu {
+    display: block;
+  }
+  nav {
+    top: -200%;
+    right: 0;
+    position: absolute;
+    background-color: rgb(28, 7, 47);
+    transition: all 0.3s ease;
+  }
+  .showMenu {
+    top: 0;
+    transition: top ease 0.3s;
+  }
+  nav ul {
+    text-align: center;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+  nav ul li {
+    margin: 4rem;
+  }
+
+  #home {
+    width: 100vw;
+    height: fit-content;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+  }
+  .dev_description {
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    height: fit-content;
+    order: 2;
+    padding-bottom: 4rem;
+  }
+  .dev_description h1 {
+    font-size: 45px;
+  }
+  .dev_description p {
+    font-size: 22px;
+  }
+  .dev_description button {
+    margin-top: 1rem;
+  }
+  .img {
+    height: 70vh;
+    background-color: red;
+  }
+  .img div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    margin-left: 0;
+    animation: none;
+    overflow-y: hidden;
+  }
+  .img div img {
+    height: 61vh;
+    width: 39rem;
+    margin-top: 5rem;
+    object-fit: cover;
+    margin: 0rem;
+    margin-top: 4rem;
+    margin-left: 10vw;
+  }
+  #work {
+    width: 100vw;
+    height: fit-content;
+    background-color: #faecd6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #work h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+  }
+  .carsouel {
+    height: 80%;
+    width: 100%;
+    overflow-y: hidden;
+  }
+  .development {
+    width: fit-content;
+  }
+  .slide {
+    margin: 17% 5%;
+    width: 90%;
+    height: 70%;
+    flex-direction: column;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+  .slide div {
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+  }
+  .slide div h2 {
+    font-size: 35px;
+    margin: 1rem 0px;
+  }
+  #experience {
+    height: fit-content;
+    font-size: 9px;
+  }
+  .experience-container {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .time {
+    height: 35vh;
+    margin: 0;
+  }
+  .webapp {
+    height: 17vh;
+    overflow: hidden;
+  }
+  .web {
+    height: 100%;
+  }
+  .appD {
+    height: 100%;
+  }
+  .desktop {
+    height: 16vh;
+  }
+  #testimonials {
+    height: max-content;
+  }
+
+  #testimonials h1 {
+    margin-top: 2rem;
+  }
+  .testimonials-container {
+    width: 100%;
+    height: 90%;
+  }
+  .person {
+    width: 100%;
+    height: 35%;
+    margin: 2rem;
+  }
+  .person img {
+    margin-bottom: -6%;
+    width: 80px;
+    margin-left: -39%;
+  }
+  .testimonials {
+    height: fit-content;
+  }
+  #contact {
+    height: fit-content;
+    flex-direction: column;
+    background-color: white;
+  }
+  .form {
+    width: 100%;
+    height: fit-content;
+    padding-top: 2rem;
+  }
+  .form h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+  }
+  #name,
+  #email,
+  #message {
+    width: 70%;
+    margin: 0.5rem 0;
+    padding: 18px;
+  }
+  .form button {
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+  }
+  .helloimg {
+    width: 100%;
+  }
+  .helloimg img {
+    width: 100%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 9%;
+  }
+  footer {
+    flex-direction: column;
+    height: max-content;
+  }
+  .empty,
+  .socialMedia {
+    width: 100%;
+  }
+  .dev {
+    width: 100%;
+  }
+  .socialMedia {
+    margin-top: 1rem;
+  }
+  .socialMedia span {
+    display: inline-block;
+  }
+  .formResponse {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .img {
+    height: 59vh;
+  }
+  .img div img {
+    height: 46vh;
+    width: 19rem;
+  }
+  .dev_description {
+    padding-bottom: 3rem;
+  }
+  .carsouel {
+    margin-top: 2rem;
+  }
+  .development {
+    width: 62vw;
+  }
+  .experience-container h1 {
+    margin-top: 2rem;
+  }
+  .time {
+    width: 30vw;
+  }
+  .web {
+    width: 50vw;
+    font-size: 13px;
+  }
+  .tools {
+    width: 90%;
+  }
+  .tools h3 {
+    font-size: 13px;
+    color: red;
+    margin-bottom: 0.5rem;
+  }
+  .tools ul li {
+    font-size: 11px;
+  }
+  .desktop h3 {
+    font-size: 13px;
+    margin-right: 1rem;
+  }
+  #testimonials h1 {
+    padding-bottom: 2rem;
+  }
+
+  .person img {
+    margin-bottom: 0%;
+    width: 80px;
+    margin-left: -67%;
+    margin-top: 1rem;
+  }
+  .formResponse {
+    font-size: 12px;
+  }
+}
+
+@media (1000px <= width<1200px) {
+  #home {
+    height: 70vh;
+  }
+  .dev_description {
+    width: 35%;
+    padding-left: 4rem;
+  }
+  .img div {
+    width: 26rem;
+    height: 58%;
+    margin-left: 9rem;
+  }
+  #work {
+    height: fit-content;
+  }
+  .carsouel {
+    height: 60%;
+    overflow: hidden;
+  }
+  .slide {
+    margin: 10% 10%;
+    height: 77%;
+  }
+  #experience {
+    height: 70vh;
+  }
+  .experience-container {
+    height: 80%;
+  }
+  .time {
+    height: 39vh;
+  }
+  .webapp {
+    height: 20vh;
+    overflow: hidden;
+  }
+  .desktop {
+    height: 18vh;
+  }
+  #testimonials {
+    height: 75vh;
+  }
+  .testimonials {
+    height: 64vh;
+  }
+  .person {
+    height: 59%;
+  }
+  #contact {
+    width: 100vw;
+    height: 61vh;
+  }
+  #name,
+  #email,
+  #message {
+    width: 70%;
+  }
+  .form h1 {
+    font-size: 45px;
+  }
+  .formResponse {
+    width: 70%;
+  }
+}
