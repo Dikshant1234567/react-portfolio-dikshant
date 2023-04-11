@@ -29,7 +29,7 @@ function Menu({ setopenmenu, openmenu }) {
             <a href="#work" onClick={()=>setopenmenu(false)}>Project</a>
           </li>
           <li>
-            <a href="#experience" onClick={()=>setopenmenu(false)}>Experience</a>
+            <a href="#experience" onClick={()=>setopenmenu(false)}>Skills</a>
           </li>
           <li>
             <a href="#testimonials" onClick={()=>setopenmenu(false)}>Testimonials</a>
