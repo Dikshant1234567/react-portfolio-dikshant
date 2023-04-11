@@ -11,7 +11,7 @@ function Menu({ setopenmenu, openmenu }) {
 
   return (
     <header className="menu">
-      <i class="fa-solid fa-bars ham" onClick={hamClick} ></i>
+      <i className="fa-solid fa-bars ham" onClick={hamClick} ></i>
       <div className="logo">
         <img
           src="https://t3.ftcdn.net/jpg/05/05/86/58/360_F_505865847_HAJ4BtMDxVYTKlveu5BDyljAym3ODnO8.jpg"
@@ -21,7 +21,7 @@ function Menu({ setopenmenu, openmenu }) {
       </div>
       <nav className={openmenu ? "showMenu" : ""}>
         <ul>
-          <i class="fa-solid fa-xmark cross" onClick={close}></i>
+          <i className="fa-solid fa-xmark cross" onClick={close}></i>
           <li>
             <a href="#home" onClick={()=>setopenmenu(false)}>Home</a>
           </li>

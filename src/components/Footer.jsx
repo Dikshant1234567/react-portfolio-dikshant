@@ -17,13 +17,13 @@ function Footer() {
         <h3>Social Media</h3>
         <span>
           <a target="_blank" href="https://github.com/Dikshant1234567">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
           <a target="_blank" href="https://www.instagram.com/dikshantnaudiyal/">
-            <i class="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-instagram"></i>
           </a>
           <a target="_blank" href="https://dikshantnaudiyal06@gmail.com">
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
           </a>
           <p>dikshantnaudiyal06@gmail.com</p>
         </span>

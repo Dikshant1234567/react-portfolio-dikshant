@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/home.css";
 import profile from "../assets/mainImg.jpg";
+import cv from "../assets/FullStack Developer Dikshant Resume.pdf"
 
 function Home() {
   const click= ()=>{
     window.location = "#work"
   }
+
   return (
     <section id="home">
       <div className="dev_description">
@@ -17,7 +19,6 @@ function Home() {
        <p>A Student & Frontend Developer.</p>
         <div className="button">
           <button onClick={click}>Know more</button>
-          <button className="cv">CV</button>
         </div>
       </div>
       <div className="img">
