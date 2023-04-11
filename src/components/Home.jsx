@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/home.css";
 import profile from "../assets/mainImg.jpg";
-import cv from "../assets/FullStack Developer Dikshant Resume.pdf"
 
 function Home() {
   const click= ()=>{
